@@ -1,0 +1,500 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: #555; 
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5; 
+
+}
+
+.Navbar-main{
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    /* background-color: aqua; */
+} 
+
+.header-logo{
+    flex-direction: row;
+    max-width: 479px;
+    display: flex;
+
+} 
+
+.header-contact{
+    flex-direction: row;
+    max-width: 479px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 15px;
+
+}
+
+.header-contact-number{
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 10px;
+    color: #555;
+    text-decoration: none;
+ }
+/* .header-right{  
+    margin-left: 50px;
+}   */
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #555;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+  }
+/*   
+  li a:hover:not(.active) {
+     background-color: #111; 
+  }
+   */
+  .active {
+    /* background-color: #04AA6D; */
+    color:lightblue;
+  }
+.Navbar-list{
+    /* background-color: brown; */
+    margin-left: 60px;
+
+}
+
+ 
+.button {
+    background-color:teal;
+    border: none;
+    color: white;
+    padding: 7px ;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+   
+}
+
+.button:hover {
+    background-color: black;
+}
+
+
+
+.Welcome-page{
+    height: 700px;
+    display: flex;
+    padding: 60px;
+    background-color: #ebf3f5;
+    
+
+    
+}
+
+.left-container{
+    
+    height:620px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+}
+.button2 {
+    background-color:teal;
+    border: none;
+    color: white;
+    width: fit-content;
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    font-weight: 800;
+    padding: 17px 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    letter-spacing: 1px;   
+}
+
+.right-container{
+    
+    height:600px;
+    width: 50%;
+    display: flex; 
+    border: 10px solid teal ;
+    padding: 40px;
+}
+
+
+
+.Welcome-page{
+    height: 700px;
+    display: flex;
+    padding: 60px;
+    
+
+    
+}
+
+
+
+
+
+
+.services {
+	display: flex;
+	padding: 20px;
+}
+
+.service {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ddd;
+    width: 33.33% ;
+}
+
+.service h3 {
+	margin-bottom: 10px;
+} 
+
+ .service p {
+	margin-bottom: 20px;
+} 
+
+.button-container button {
+	padding: 10px 20px;
+    background-color: white;
+	color:black;
+	 
+	border: 2px solid teal;
+	 
+}
+
+.button-container button:hover {
+	background-color:teal;
+}
+
+
+.Welcome-page2{
+    height: fit-content;
+    display: flex;
+    padding: 60px;
+    background-color: #ebf3f5;
+    
+
+    
+}
+
+.left-container2{
+    
+    height:700px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+   padding: 10px;
+}
+
+.right-container2{
+    background-color: rgb(159, 209, 209);
+    height:600px;
+    width: 40%;
+    display: flex;
+    padding-top: 50px;
+     
+}
+
+
+.boxes{
+    /* background-color: coral; */
+    height:500px;
+    margin-right: 80px;
+    display: flex;
+   
+    height:500px;
+    margin-right: 80px;
+    display: flex;
+     
+    color: black;
+    
+    
+    
+    
+    
+    
+
+}
+
+.Box{
+    flex-direction: column;
+    align-items: center; 
+    font-size: 18px;
+    font-family: sans-serif;
+    border: black solid 2px;
+    margin: 20px;
+	padding: 20px;
+    width: 33%;
+}
+
+.Box img{
+    text-align: center;
+    max-width: 100%;
+    display: inline-block;
+
+}
+
+.Box h3{
+    color: black;
+    font-weight:700;
+    text-align: center;
+
+}
+
+.ser{
+    margin-top: 100px;
+}
+
+.menu1{
+    height: fit-content;
+    display: flex;
+    padding: 20px;
+    
+    
+}
+
+.menu-left-container{
+    background-color: #e6ebec;
+    height:700px;
+    width: 50%;
+    display: flex;
+    
+}
+.menu-right-container{
+    height:700px;
+    width: 50%;
+    padding: 20px;
+}
+
+hr.solid {
+    border-top: 1px solid black;
+}
+
+u {    
+    border-bottom: 3px dotted #000;
+    text-decoration: none;
+}
+
+.service-item {
+    margin-bottom: 20px;
+}
+
+.service-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-item .price {
+    font-weight: normal;
+    font-size: 20px;
+    color: gray;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.appointment-btn {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color:white;
+    color:  black;
+    text-align: center;
+    font-size: 1.2em;
+    border: solid 2px rgb(159, 209, 209);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.appointment-btn:hover {
+    background-color:rgb(159, 209, 209);
+    color: white;
+}
+
+
+.menu2{
+    height: fit-content;
+    display: flex;
+    padding: 0px;
+    margin-top: -50px;
+}
+
+.design{
+    background-color: #555;
+    height: 250px;
+    width: 250px;
+    margin-left: 40%;
+    margin-top: -40px;   
+}
+
+
+.menu2-left-container{
+    height:700px;
+    width: 50%;
+    padding: 20px;
+    
+}
+
+.testimonial-section1 {
+    
+    padding: 50px;
+    background-color:#ebf3f5;
+     width: 100%;
+    margin-top: 50px;
+    
+    
+}
+
+.testimonial-section h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #333;
+}
+
+.testimonials {
+    display: flex;
+    
+    gap: 30px;
+}
+
+.testimonial {
+    background-color: #e6eaf2;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    color: #333;
+}
+
+.testimonial::before {
+    content: '“';
+    font-size: 50px;
+    color: #bbb;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: rgb(39, 36, 36);
+}
+
+.customer-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.customer-info h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.customer-info p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.checked {
+    color: white;
+}
+
+.Check1{
+    height:fit-content;
+    width: 33%;
+
+}
+
+
+.Check2{
+    height:fit-content;
+    width: 34%;
+
+}
+
+
+.testimonials2 {
+    display: flex;
+    flex-wrap:wrap;
+    /* gap: 30px; */
+}
+
+
+.testimonial-section2{
+    
+    padding: 50px;
+    background-color:white;
+     width: 100%;
+    margin-top: 50px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
